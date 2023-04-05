@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jaegar Steinhauer Photography</title>
+        <link rel ="stylesheet" href="../Assignment3/stylesheet.css">
+        <script src="../Assignment3/javaScript.js" defer></script>
+    </head>
+
+    <body>
+
+        <nav>
+            <link rel = "icon" href = "Images/logo.png">
+
+            <a href = "../Assignment3/index.html">
+                <img class="logo" src = "Images/logo.png" alt = "logo">
+            </a>
+
+            <button id="color1">Change color</button>
+            <button id="color2">Change color</button>
+            <button id="color3">Change color</button>
+
+            <p>note: clicking the icon returns to the homepage</p>
+
+            <h1 id="title">Jaegar's Photography Website</h1>
+
+
+            <h1 id = "buttons">
+                <a class="button" href = "../Assignment3/naturePhotos.html">Nature Photography</a>
+                <a class="button" href = "../Assignment3/urbanPhotos.html">Urban Photography</a>
+            </h1>
+        </nav>
+
+        <iframe class= "slideshow" target="video" width="747" height="420" src="https://www.youtube.com/embed/5I69DCxYbBg?rel=0&autoplay=1&mute=1">Landscape slideshow</iframe>
+
+
+        <audio class="audio-player" autoplay loop controls>
+            <source src = "SoundVideo/jazzMusic.mp3">
+        </audio>
+
+        <h2>Featured Landscape Photos</h2>
+
+        <div id="featured">
+            <img src = "Images/natureImg1.jpg" alt = "Green Forest: Vancouver Island" height = "500">
+            <img src = "Images/natureImg2.jpg" alt = "Cloudy Mountain: Alberta" height = "500">
+            <img src = "Images/natureImg3.jpg" alt = "Snow Slopes" height = "500">
+        </div>
+
+    </body>
+    <footer>
+
+        <div class="foot">
+            <table>
+                <tr>
+                    <th colspan = 6>Contact Information</th>
+                    <th colspan = 6>Experience and Accomplishments</th>
+                </tr>
+
+                <tr>
+                    <td rowspan = 5 colspan = 6>
+                        <ul>
+                            <li><a href = "https://www.instagram.com/jaegar.steinhauer/?next=%2F">Instagram</a></li>
+                            <li><a href = "mailto:jaegarsteinhauer@gmail.com">Email</a></li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan = 5 colspan = 6>
+                        <ol type = "1">
+                            <li>PVA Media Arts at Centrial Memorial Highschool</li>
+                            <li>First Year Computer Science at Dalhousie</li>
+                            <li>Zamboni Driver</li>
+                            <li>CMBA Basketball Official</li>
+                            <li>Calgary-select Mens Basketball All-Star</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+
+            <form id ="photo-shoot-form" action="https://example.com/apply">
+                <h3>To book appointments for photo shoots, please enter information below and click submit.</h3>
+                <p>
+                    <label for="first">First Name:</label>
+                    <input id="first" name="first" type="text">
+                </p>
+                <p>
+                    <label for="last">Last Name:</label>
+                    <input id="last" name="last" type="text">
+                </p>
+                <p>
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="text">
+                </p>
+                <input type="submit">
+            </form>
+        </div>
+    </footer>
+</html>

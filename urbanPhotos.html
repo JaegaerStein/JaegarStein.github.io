@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jaegar Steinhauer Photography</title>
+    <link rel ="stylesheet" href="../Assignment3/stylesheet.css">
+    <script src="../Assignment3/javaScript.js" defer></script>
+</head>
+<body>
+    <nav>
+        <link rel = "icon" href = "Images/logo.png">
+        <a href = "../Assignment3/index.html">
+            <img class="logo" src = "Images/logo.png" alt = "logo">
+        </a>
+
+        <button id="color1">Change color</button>
+        <button id="color2">Change color</button>
+        <button id="color3">Change color</button>
+
+        <h1 id ="title">Urban Photography</h1>
+
+
+        <h1 id="buttons">
+            <a class="button" href = "../Assignment3/index.html">Home Page</a>
+            <a class="button" href = "../Assignment3/naturePhotos.html">Nature Photography</a>
+        </h1>
+
+    </nav>
+
+    <audio class="audio-player" autoplay loop controls>
+        <source src = "SoundVideo/jazzMusic.mp3">
+    </audio>
+
+    <section>
+        <h2>Urban Photography</h2>
+        <h3>All images captured in Halifax, Nova Scotia</h3>
+    </section>
+
+    <div class="urbanPics">
+        <video class="squareY" controls loop autoplay muted>
+            <source src = "SoundVideo/urbanVideo.MOV">
+        </video>
+        <img class="squareY" src = "Images/urbanImg1.jpg" alt = "Green House">
+        <img class="squareY" src = "Images/urbanImg2.jpg" alt = "Old Town House">
+        <img class="squareY" src = "Images/urbanImg3.jpg" alt = "Church Arches">
+        <img class="squareY" src = "Images/urbanImg4.jpg" alt = "sunrise">
+        <img class="squareY" src = "Images/urbanImg5.jpg" alt = "court">
+    </div>
+
+</body>
+<footer>
+
+    <div class="foot">
+        <table>
+            <tr>
+                <th colspan = 6>Contact Information</th>
+                <th colspan = 6>Experience and Accomplishments</th>
+            </tr>
+
+            <tr>
+                <td rowspan = 5 colspan = 6>
+                    <ul>
+                        <li><a href = "https://www.instagram.com/jaegar.steinhauer/?next=%2F">Instagram</a></li>
+                        <li><a href = "mailto:jaegarsteinhauer@gmail.com">Email</a></li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan = 5 colspan = 6>
+                    <ol type = "1">
+                        <li>PVA Media Arts at Centrial Memorial Highschool</li>
+                        <li>First Year Computer Science at Dalhousie</li>
+                        <li>Zamboni Driver</li>
+                        <li>CMBA Basketball Official</li>
+                        <li>Calgary-select Mens Basketball All-Star</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+        <form action="https://example.com/apply">
+            <h3>To book appointments for photo shoots, please enter information below and click submit.</h3>
+            <p>
+                <label for="first">First Name:</label>
+                <input type="text" name="first" id="first">
+            </p>
+            <p>
+                <label for="last">Last Name:</label>
+                <input type="text" name="last" id="last">
+            </p>
+            <p>
+                <label for="email">Email Address</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <input type="submit">
+        </form>
+    </div>
+    
+</footer>
+</html>
